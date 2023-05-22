@@ -1,0 +1,23 @@
+html{
+    background: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+span{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+@media screen and (max-width: 320px) {
+    span{
+        width: 270px;
+        text-align-last: center;
+        text-indent: 15px;
+        position: relative;
+        left: 27px;
+    }
+}
